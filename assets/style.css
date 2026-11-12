@@ -639,3 +639,33 @@ footer {
 @media (max-width: 600px) {
   .photo-card img { height: 210px; }
 }
+
+/* ============ 视频展示 ============ */
+.video-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all .2s;
+}
+.video-card:hover {
+  box-shadow: var(--shadow-lg);
+  border-color: #D1D5DB;
+}
+.video-card video {
+  width: 100%;
+  display: block;
+  background: #000;
+}
+.video-card .video-cap { padding: 14px 16px; }
+.video-card .video-cap h4 {
+  font-size: 14.5px;
+  color: var(--text);
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+.video-card .video-cap p {
+  font-size: 12.5px;
+  color: var(--text-light);
+  line-height: 1.65;
+}
